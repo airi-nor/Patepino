@@ -22,13 +22,15 @@ st.title('わんちゃん')
 # 'あなたの趣味:', text, 'です'
 # 'コンディション:', condition
 
-if st.checkbox('ぱっちゃん'):
+if st.button('ぱっちゃん'):
     img = Image.open('patchan.jpeg')
     st.balloons()
     st.image(img)
 
-if st.checkbox('ぴーちゃん'):
+if st.button('ぴーちゃん'):
     img = Image.open('pichan.jpeg')
     st.balloons()
     st.image(img)
+
+
 
